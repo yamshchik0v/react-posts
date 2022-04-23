@@ -1,0 +1,14 @@
+.commentBody {
+  margin: 20px 0 0 0;
+  border: 1px solid teal;
+}
+.commentEmail {
+  font-family: 'Times New Roman', Times, Baskerville, Georgia, serif;
+  color: teal;
+  font-size: 20px;
+  display: block;
+  margin: 10px 0 10px 10px;
+}
+.commentText {
+  margin: 10px 10px;
+}

@@ -1,0 +1,22 @@
+.navbar {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+  background: #cfcfcf;
+}
+
+.navbarLinks {
+  display: flex;
+  gap: 10px;
+}
+.navbarLinks a {
+  color: lightseagreen;
+  text-decoration: none;
+}
+.navbarLinks a:hover {
+  color: teal;
+  text-decoration: underline;
+}

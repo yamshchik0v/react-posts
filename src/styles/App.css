@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  width: clamp(320px, 800px, 80%);
+}
+
+.post {
+  display: flex;
+  padding: 15px;
+  border: 2px solid teal;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__btns {
+  display: flex;
+  gap: 10px;
+}
+.post-enter {
+  transform: translateX(0);
+}
+.post-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 500ms ease-in;
+}
+.post-exit {
+  transform: translateX(0);
+}
+.post-exit-active {
+  opacity: 0;
+  transform: translateX(-350px);
+  transition: all 500ms ease-in;
+}
+
+.page__wrapper {
+  margin: 20px 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page {
+  border: 1px solid teal;
+  padding: 10px;
+  color: teal;
+  cursor: pointer;
+}
+.page__current {
+  border: 2px solid lightseagreen;
+  color: lightseagreen;
+  font-weight: bold;
+}
+
+.errorPage {
+  padding-top: 30px;
+  text-align: center;
+  color: crimson;
+}
+
+.login-title {
+  color: teal;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-paragraph {
+  color: #333;
+  font-size: 0.8rem;
+  margin: 20px 0 8px;
+}
